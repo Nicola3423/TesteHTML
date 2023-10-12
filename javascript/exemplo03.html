@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>EXEMPLO 03</h1>
+    <button onclick="somaDoValores()">PARA COMEÇAR CLIQUE AQUI</button>
+    <script> 
+        
+        function somaDoValores(){
+            let numero01Digitado = prompt('Digite o primeiro valor: ')
+            let numero02Digitado = prompt('Digite o segundo valor: ')
+            
+            let somaNumeros = parseInt(numero01Digitado) + parseInt(numero02Digitado)
+
+            alert('A soma dos numeros é ' + somaNumeros)
+            
+            if(somaNumeros > 30){
+                console.log('Você é maior')
+            }
+            else{
+                console.log('Você é menor') 
+            }
+            
+        }
+
+
+    </script>
+    
+</body>
+</html>

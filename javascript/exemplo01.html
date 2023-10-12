@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo01</title>
+</head>
+<body>
+
+    <h1> Trabalhando com dados </h1>
+
+        <button onclick="clicou()">Clique aqui</button>
+
+        <hr>
+        <br>
+        <h2>Segundo botão</h2>
+
+        <button onclick="dadosUsuario()">Clique para começar</button>
+
+
+        <script>
+            function clicou(){
+                alert('clicou no botão')
+            }
+
+            function dadosUsuario(){
+                // tipos de variaveis: var, let, const
+                // int idade; não existe colocar int ou string 
+                // String nome;
+                let nome = 'Igor'
+                let idade = 18
+
+                let nomedigitado= window.prompt('Qual é seu nome?')
+
+                alert(`nome digitado ${nomedigitado}`)
+
+                //Forma de manipular variavel com texto
+
+                alert('Ola,' + nomedigitado + ' é prazer te conhecer')
+
+
+            }
+        </script>
+
+</body>
+</html>
